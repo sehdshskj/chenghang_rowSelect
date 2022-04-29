@@ -196,7 +196,7 @@ void task4(const Row *rows,int nrows)
     //初始化根节点
     struct TreeNode *root = malloc(sizeof(struct TreeNode));
     root->interval_left = 1000;
-    root->interval_right = 990000;
+    root->interval_right = 99000;
     root->value_a = (root->interval_left + root->interval_right) / 2000 * 1000;
     root->searchpos_left = 0;
     root->searchpos_right = nrows - 1;
